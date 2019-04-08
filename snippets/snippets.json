@@ -1,0 +1,191 @@
+{
+  "Initial function component for React": {
+    "scope": "javascript",
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "function ${1:Component} () {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t<h1>${1:Component}</h1>",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial function component file for React"
+  },
+
+  "Initial arrow function component for React": {
+    "scope": "javascript",
+    "prefix": "rafc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "const ${1:Component} = () => (",
+      "\t<div>",
+      "\t\t<h1>${1:Component}</h1>",
+      "\t</div>",
+      ")",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial arrow function component file for React"
+  },
+
+  "Initial function component with useState for React": {
+    "scope": "javascript",
+    "prefix": "rfcs",
+    "body": [
+      "import React, { useState } from 'react'",
+      "",
+      "function ${1:Component} () {",
+      "\tconst [${2:state}, set${2:state}] = useState('${2:state}')",
+      "",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t<h1>${1:Component}</h1>",
+      "\t\t\t<span>{${2:state}}</span>",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial function component file with useState for React"
+  },
+
+  "Initial arrow function component with useState for React": {
+    "scope": "javascript",
+    "prefix": "rafcs",
+    "body": [
+      "import React, { useState } from 'react'",
+      "",
+      "const ${1:Component} = () => {",
+      "\tconst [${2:state}, set${2:state}] = useState('${2:state}')",
+      "",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t<h1>${1:Component}</h1>",
+      "\t\t\t<span>{${2:state}}</span>",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial arrow function component file with useState for React"
+  },
+
+  "Initial styled-components for React": {
+    "scope": "javascript",
+    "prefix": "rsc",
+    "body": [
+      "import styled from 'styled-components'",
+      "\t",
+      "export const ${1:Container} = styled.${2:div}`",
+      "\t$0",
+      "`"
+    ],
+    "description": "Initial styled-components file for React"
+  },
+
+  "Initial function component for React Native": {
+    "scope": "javascript",
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "function ${1:Component} () {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t<Text>${1:Component}</Text>",
+      "\t\t</View>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial function component file for React Native"
+  },
+
+  "Initial arrow function component for React Native": {
+    "scope": "javascript",
+    "prefix": "rnafc",
+    "body": [
+      "import React from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "const ${1:Component} = () => (",
+      "\t<View>",
+      "\t\t<Text>${1:Component}</Text>",
+      "\t</View>",
+      ")",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial arrow function component file for React Native"
+  },
+
+  "Initial function component with useState for React Native": {
+    "scope": "javascript",
+    "prefix": "rnfcs",
+    "body": [
+      "import React, { useState } from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "function ${1:Component} () {",
+      "\tconst [${2:state}, set${2:state}] = useState('${2:state}')",
+      "",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t<Text>${1:Component}</Text>",
+      "\t\t\t<Text>{${2:state}}</Text>",
+      "\t\t</View>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial function component file with useState for React Native"
+  },
+
+  "Initial arrow function component with useState for React Native": {
+    "scope": "javascript",
+    "prefix": "rnafcs",
+    "body": [
+      "import React, { useState } from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "const ${1:Component} = () => {",
+      "\tconst [${2:state}, set${2:state}] = useState('${2:state}')",
+      "",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t<Text>${1:Component}</Text>",
+      "\t\t\t<Text>{${2:state}}</Text>",
+      "\t\t</View>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:Component}"
+    ],
+    "description": "Initial arrow function component file with useState for React Native"
+  },
+
+  "Initial styled-components for React Native": {
+    "scope": "javascript",
+    "prefix": "rnsc",
+    "body": [
+      "import styled from 'styled-components/native'",
+      "",
+      "export const ${1:Container} = styled.${2:View}`",
+      "\t$0",
+      "`"
+    ],
+    "description": "Initial styled-components file for React Native"
+  }
+}
